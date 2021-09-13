@@ -1,3 +1,7 @@
+#print intro message
+print("Hello World!")
+print("These are my top four movies (for now):")
+
 #print first movie
 print("Twilight")
 
