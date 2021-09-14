@@ -1,15 +1,19 @@
-#print intro message
-print("Hello World!")
-print("These are my top four movies (for now):")
+#define topFiveFilms
+def topFiveFilms():
+    #print first movie
+    print("Twilight")
 
-#print first movie
-print("Twilight")
+    #print second movie
+    print("Moonrise Kingdom")
 
-#print second movie
-print("Moonrise Kingdom")
+    #print third movie
+    print("Portrait of a Lady on Fire")
 
-#print third movie
-print("Portrait of a Lady on Fire")
+    #print fourth movie
+    print("Midsommar")
 
-#print fourth movie
-print("Midsommar")
+    #print fifth movie
+    print("Pulp Fiction")
+
+print("These are my top five movies:")
+topFiveFilms()
