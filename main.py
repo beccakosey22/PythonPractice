@@ -69,3 +69,11 @@ def topFiveTelevisionShows():
 
     #print fifth show
     print("Black Mirror")
+
+#define a function the outputs my name
+def myNameis(name):
+
+    #output string
+    print(name + " is my name")
+
+myNameis("Becca")
