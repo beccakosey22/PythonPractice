@@ -77,3 +77,33 @@ def myNameis(name):
     print(name + " is my name")
 
 myNameis("Becca")
+
+#define function that multiplies input interger by 2
+def timesTwo(x):
+    print(x * 2)
+
+timesTwo(4)
+
+#define a function that adds 5 to input interger
+def plusFive(x):
+    print(x + 5)
+
+plusFive(2)
+
+#define function
+def divideByTwo(x):
+    print(x / 2)
+
+divideByTwo(4)
+
+#define function
+def addTwoNumbers(x, y):
+    print(x + y)
+
+addTwoNumbers(4, 6)
+
+#define a madlib function
+def madlib(nounOne, pluralNounOne, verbPresentTense, verbPresentTenseTwo, partOfBodyPlural, adjective, pluralNounTwo, adjectiveTwo):
+    print("Today, every student has a computer small enough to fit into his " + nounOne + ". He can solve any math problem by simply pushing the computer's little " + pluralNounOne + ". Computers can add, multiply, divide, and " + verbPresentTense + ". They can also " + verbPresentTenseTwo + " better than a human. Some computers are " + partOfBodyPlural + ". Others have a/an " + adjective + " screen that shows all kinds of ." + pluralNounTwo + " and " + adjectiveTwo + " figures.")
+
+madlib("car", "signs", "run", "smell", "arms", "clean", "assignments", "small")
