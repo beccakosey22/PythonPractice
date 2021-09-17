@@ -104,6 +104,8 @@ addTwoNumbers(4, 6)
 
 #define a madlib function
 def madlib(nounOne, pluralNounOne, verbPresentTense, verbPresentTenseTwo, partOfBodyPlural, adjective, pluralNounTwo, adjectiveTwo):
-    print("Today, every student has a computer small enough to fit into his " + nounOne + ". He can solve any math problem by simply pushing the computer's little " + pluralNounOne + ". Computers can add, multiply, divide, and " + verbPresentTense + ". They can also " + verbPresentTenseTwo + " better than a human. Some computers are " + partOfBodyPlural + ". Others have a/an " + adjective + " screen that shows all kinds of ." + pluralNounTwo + " and " + adjectiveTwo + " figures.")
+    print("Today, every student has a computer small enough to fit into his " + nounOne + ". He can solve any math problem by simply pushing the computer's little " + pluralNounOne + 
+    ". Computers can add, multiply, divide, and " + verbPresentTense + ". They can also " + verbPresentTenseTwo + " better than a human. Some computers are " + partOfBodyPlural + ". Others have a/an " + adjective + 
+    " screen that shows all kinds of " + pluralNounTwo + " and " + adjectiveTwo + " figures.")
 
 madlib("car", "signs", "run", "smell", "arms", "clean", "assignments", "small")
